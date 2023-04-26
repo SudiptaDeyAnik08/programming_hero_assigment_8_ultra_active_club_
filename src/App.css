@@ -39,11 +39,16 @@
 
 .App{
   display: flex;
-  background-color: gray;
-  height: 700px;
+  
+  height: 100%;
 }
 
 .mainSection{
   width: 70%;
-  background-color: rgb(238, 226, 226);
+  background-color: rgb(236, 245, 246);
+}
+
+.CartSection{
+  background-color: white;
+  width: 30%;
 }

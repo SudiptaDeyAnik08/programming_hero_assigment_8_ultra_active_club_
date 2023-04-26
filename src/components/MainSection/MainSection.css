@@ -1,3 +1,33 @@
+
 .heading{
     display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
 }
+
+.heading h2{
+    color:blue;
+    margin-left: 20px;
+}
+
+#h4{
+    margin-left: 20px;
+}
+
+#logo{
+    height: 60px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.Single_Card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.MainSection_body{
+    overflow: scroll;
+}
+
