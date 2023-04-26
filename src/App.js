@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+import MainSection from './components/MainSection/MainSection.js';
+import CartSection from './components/CardSection/CartSection.js';
+import SingleCard from './components/SingleCard/SingleCard';
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+      <div className='mainSection'>
+        <MainSection></MainSection>
+      </div>
+
+      <div className='CartSection'> 
+         <CartSection></CartSection>
+      </div>
+
+
     </div>
   );
 }
