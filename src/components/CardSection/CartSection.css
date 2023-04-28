@@ -28,3 +28,129 @@ color: grey;
 font-weight: bold;
  margin: 0px;
 }
+
+
+
+
+.body_info{
+    background-color: rgba(190, 190, 190, 0.24);
+    /* width: 80%; */
+    justify-content: space-between;
+    border-radius: 12px;
+   
+}
+
+.body_info_title{
+    margin: 20px;
+   
+}
+
+.common_class{
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.common_class h2,h6{
+    margin: 0px;
+}
+
+.body_info{
+    display: flex;
+    margin: 10px;
+}
+
+.body_info_title div{
+   
+}
+
+.body_info_title p{
+    margin: 0px;
+}
+
+.Add_A_Break{
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+.Add_A_Break:hover{
+    transform: scale(1.1);
+    
+}
+
+.Add_A_Break h2{
+    margin-top: 40px;
+    
+}
+
+
+.Add_A_Break button{
+    font-weight: lighter;
+    font-size: large;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    
+    background-color: white;
+    
+   
+}
+
+.Add_A_Break button:hover{
+    background-color: rgba(0, 0, 255, 0.53);
+    color: white;
+    
+}
+
+#button_group{
+    
+    background-color: rgba(190, 190, 190, 0.24);
+    padding: 20px;
+    border-radius: 10px;
+  
+}
+
+#button_group:hover{
+    border: 1px solid rgba(0, 0, 255, 0.53);
+}
+
+.Exercise_Details{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.div_flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(190, 190, 190, 0.24);
+
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.div_flex p{
+    font-weight: bold;
+    margin-top: 22px;
+    color:   rgba(0, 0, 255, 0.53);
+}
+
+.activity_completed_btn{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    width: 90%;
+    border: none;
+    background-color:  rgba(0, 0, 255, 0.53) ;
+    color: white;
+    border-radius: 12px;
+}
+
+.activity_completed_btn:hover{
+    transform: scale(1.1);
+    border: 2px solid   rgba(0, 0, 255, 0.53);
+}
