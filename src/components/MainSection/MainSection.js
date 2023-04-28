@@ -7,8 +7,14 @@ import SingleCard from "../SingleCard/SingleCard.js";
 
 import logo from '../../Assets/images/logo (2).png';
 
-const MainSection =()=>{
- 
+const MainSection =(props)=>{
+    
+
+   const handelExerciseTime2=(time)=>{
+    
+    console.log(time);
+    props.exerciseTimeFunction(time);
+   }
   
     // console.log(data)
     return(
@@ -24,7 +30,7 @@ const MainSection =()=>{
                 {
                     data.map(res=> 
                         // console.log(res.Title);
-                        <SingleCard single={res}></SingleCard>
+                        <SingleCard single={res} exerciseTimeFun2={handelExerciseTime2}></SingleCard>
                     )
                 }
             </div>

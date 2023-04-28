@@ -27,18 +27,19 @@
     margin: 0 auto;
 }
 
-.card_body button{
+.stylecard_body_button{
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
     border: none;
     font-weight: bold;
-    background-color: rgb(38, 38, 246);
+    background-color: rgba(38, 38, 246, 0.553);
     
     color: white;
 }
 
 .card_body button:hover{
-    background-color: rgb(40, 114, 40);
+    background-color: rgba(42, 216, 42, 0.844);
+    
 }

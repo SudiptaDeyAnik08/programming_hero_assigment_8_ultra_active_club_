@@ -13,7 +13,7 @@ export const data = [
         Title:"Run-Mass",
         Description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla reiciendis a tenetur assumenda magni excepturi repellat voluptate! Accusamus, ipsam odio.",
         Age:"20-25",
-        time:"30s",
+        time:"30",
         image:png1
     },
     {
@@ -21,7 +21,7 @@ export const data = [
         Title:"Leg-Dum",
         Description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla reiciendis a tenetur assumenda magni excepturi repellat voluptate! Accusamus, ipsam odio.",
         Age:"20-25",
-        time:"40s",
+        time:"40",
         image:png2
     },
     {
@@ -29,7 +29,7 @@ export const data = [
         Title:"Hand-Strong",
         Description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla reiciendis a tenetur assumenda magni excepturi repellat voluptate! Accusamus, ipsam odio.",
         Age:"20-25",
-        time:"36s",
+        time:"36",
         image:png3
     },
     {
@@ -37,7 +37,7 @@ export const data = [
         Title:"Sit-Grab",
         Description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla reiciendis a tenetur assumenda magni excepturi repellat voluptate! Accusamus, ipsam odio.",
         Age:"20-25",
-        time:"40s",
+        time:"40",
         image:png4
     },
     {
@@ -45,7 +45,7 @@ export const data = [
         Title:"Fit-Full",
         Description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla reiciendis a tenetur assumenda magni excepturi repellat voluptate! Accusamus, ipsam odio.",
         Age:"20-25",
-        time:"30s",
+        time:"30",
         image:png5
     },
     {
@@ -53,7 +53,7 @@ export const data = [
         Title:"Run-Runner",
         Description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla reiciendis a tenetur assumenda magni excepturi repellat voluptate! Accusamus, ipsam odio.",
         Age:"20-25",
-        time:"50s",
+        time:"50",
         image:png6
     },
     {
@@ -61,7 +61,7 @@ export const data = [
         Title:"Hand-Stich",
         Description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla reiciendis a tenetur assumenda magni excepturi repellat voluptate! Accusamus, ipsam odio.",
         Age:"20-25",
-        time:"20s",
+        time:"20",
         image:png7
     },
 

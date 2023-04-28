@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./CartSection.css";
 
@@ -9,7 +9,18 @@ import profile_pic from "../../Assets/images/pro.jpg";
 
 
 
-const CartSection=()=>{
+const CartSection=(props)=>{
+    
+    const exercise_time = props.exercisetimeTotal;
+
+    const [breakTime,setBreakTime] = useState(0);
+
+    const handleBreakTime=(r)=>{
+        console.log(r);
+        setBreakTime(r);
+    }
+
+
     return(
         <div  className="pos">
            <div>
@@ -52,11 +63,11 @@ const CartSection=()=>{
             <div className="Add_A_Break">
                 <h2>Add A Break</h2>
                 <div id="button_group">
-                    <button>10s</button>
-                    <button>20s</button>
-                    <button>30s</button>
-                    <button>40s</button>
-                    <button>50s</button>
+                    <button onClick={res=>handleBreakTime(10)}>10s</button>
+                    <button onClick={res=> handleBreakTime(20)}>20s</button>
+                    <button onClick={res=> handleBreakTime(30)}>30s</button>
+                    <button onClick={res=> handleBreakTime(40)}>40s</button>
+                    <button onClick={res=> handleBreakTime(50)}>50s</button>
                 </div>
             </div>
             
@@ -64,12 +75,12 @@ const CartSection=()=>{
                 <h2>Exercise Details</h2>
                 <div className="Exercise_time div_flex">
                      <h4>Exercise time</h4>
-                     <p>200 seconds</p>
+                     <p>{exercise_time} seconds</p>
                 </div>
 
                 <div className="Break_time div_flex">
-                     <h4>Exercise time</h4>
-                     <p>15 seconds</p>
+                     <h4>Break time</h4>
+                     <p>{breakTime} seconds</p>
                 </div>
 
             </div>
