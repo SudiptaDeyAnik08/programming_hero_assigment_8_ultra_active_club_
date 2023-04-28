@@ -1,0 +1,30 @@
+.profile{
+    margin: 30px;
+    display: flex;
+}
+.image_div{
+}
+
+.image_div img{
+    height: 100px;
+    
+    border-radius: 10px;
+    
+}
+
+.profile_des{
+margin-left: 10px;
+align-items: center;
+}
+
+
+.profile_des h3{
+    margin: 0px;
+    margin-bottom: 6px;
+}
+
+.profile_des p{
+color: grey;
+font-weight: bold;
+ margin: 0px;
+}
