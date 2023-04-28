@@ -11,8 +11,9 @@ import profile_pic from "../../Assets/images/pro.jpg";
 
 const CartSection=()=>{
     return(
-        <div>
-            <div className="profile">
+        <div  className="pos">
+           <div>
+           <div className="profile">
                 <div className="image_div">
                     <img src={profile_pic} alt="" />
                 </div>
@@ -75,6 +76,7 @@ const CartSection=()=>{
 
             <button className="activity_completed_btn">Activity Completed</button>
 
+           </div>
         </div>
     )
 }

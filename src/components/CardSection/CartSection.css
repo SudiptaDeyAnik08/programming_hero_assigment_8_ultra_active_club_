@@ -154,3 +154,9 @@ font-weight: bold;
     transform: scale(1.1);
     border: 2px solid   rgba(0, 0, 255, 0.53);
 }
+
+.pos{
+    position: sticky;
+    top:30px;
+    margin-bottom: 20px;
+}
