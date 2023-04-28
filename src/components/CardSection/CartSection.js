@@ -5,21 +5,32 @@ import "./CartSection.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHippo, } from "@fortawesome/free-solid-svg-icons";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
+
 import profile_pic from "../../Assets/images/pro.jpg";
 
 
 
 const CartSection=(props)=>{
     
-    const exercise_time = props.exercisetimeTotal;
+    let exerciseTime = localStorage.getItem("breakTime");
+    
+    let exercise_time = props.exercisetimeTotal;
 
-    const [breakTime,setBreakTime] = useState(0);
+    if(exerciseTime === "null"){
+        exerciseTime = 0;
+    }
+
+    const [breakTime,setBreakTime] = useState(exerciseTime);
 
     const handleBreakTime=(r)=>{
         console.log(r);
         setBreakTime(r);
     }
+    localStorage.setItem("breakTime",breakTime);
 
+    const notify = () => toast("Congratulation, you have done it.");
 
     return(
         <div  className="pos">
@@ -85,7 +96,9 @@ const CartSection=(props)=>{
 
             </div>
 
-            <button className="activity_completed_btn">Activity Completed</button>
+            <button className="activity_completed_btn" onClick={notify}>Activity Completed</button>
+            <ToastContainer />
+
 
            </div>
         </div>

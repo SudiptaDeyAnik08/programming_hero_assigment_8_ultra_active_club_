@@ -43,3 +43,12 @@
     background-color: rgba(42, 216, 42, 0.844);
     
 }
+
+.card_body_disable{
+    background-color: rgba(42, 216, 42, 0.844);
+}
+
+.card_body_disable:hover{
+ background-color: rgba(42, 216, 42, 0.844);
+
+}
